@@ -5,7 +5,6 @@ import (
 	"time"
 )
 
-// 近似与暴力法，会超时
 func checkSubarraySum(nums []int, k int) bool {
 	if k == 0 {
 		return true
@@ -13,18 +12,21 @@ func checkSubarraySum(nums []int, k int) bool {
 		return false
 	}
 
-	dp := make([]int, len(nums) + 1)
-	for index, num := range nums {
-		dp[index + 1] += num + dp[index]
-	}
+	hashMap := make(map[int]int)
 
-	for i := 0; i < len(dp); i++ {
-		for j := i + 2; j < len(dp); j++ {
-			lastSum := dp[j] - dp[i]
+	hashMap[0] = -1
+	sum := 0
 
-			if (k == 0 && lastSum == 0) || (k != 0 && lastSum % k == 0) {
+	for i := 0; i < len(nums); i++ {
+		sum += nums[i]
+		sum %= k
+
+		if _, ok := hashMap[sum]; ok {
+			if i - hashMap[sum] > 1 {
 				return true
 			}
+		} else {
+			hashMap[sum] = i
 		}
 	}
 
