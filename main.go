@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 func main() {
 	chan1 := make(chan int, 1)
@@ -21,4 +24,6 @@ func main() {
 			}
 		}
 	}()
+
+	reflect.SliceHeader{}
 }
