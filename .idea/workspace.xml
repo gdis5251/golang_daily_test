@@ -63,13 +63,13 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
-    <configuration name="go build do_some_fxxking_test/leet_code/剑指42.连续子数组的最大和" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build do_some_fxxking_test/leet_code/494.目标和">
+    <configuration name="go build do_some_fxxking_test/leet_code/494.目标和" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="do_some_fxxking_test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/leet_code/剑指42.连续子数组的最大和/main.go" />
-      <package value="do_some_fxxking_test/leet_code/剑指42.连续子数组的最大和" />
+      <filePath value="$PROJECT_DIR$/leet_code/494.目标和/main.go" />
+      <package value="do_some_fxxking_test/leet_code/494.目标和" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/494.目标和" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/523.连续的子数组和" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/剑指42.连续子数组的最大和" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
@@ -124,11 +124,19 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leet_code/494.目标和/main.go</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="GoApplicationRunConfiguration">
-        <watch expression="nums[i - 1]" language="go" />
-        <watch expression="dp[i]" language="go" />
-        <watch expression="res" language="go" />
+        <watch expression="len(nums)" language="go" />
+        <watch expression="index" language="go" />
       </configuration>
     </watches-manager>
   </component>
