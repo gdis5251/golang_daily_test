@@ -1,37 +1,24 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
-	"os"
-	"time"
 )
 
 func main() {
-	defer fmt.Println("defer main")
-	var user = os.Getenv("USER_")
+	tmp:= "111"
+	tmp += "&12312378172839172893719827389172389172389172893182734&req_id=__REQUEST_TD__"
 
-	go func() {
-		defer func() {
-			fmt.Println("defer caller")
-			if err := recover(); err != nil {
-				fmt.Println("recover success. err: ", err)
-			}
-		}()
+	if tmp[(len(tmp)-len("&req_id=__REQUEST_TD__")):] == "&req_id=__REQUEST_TD__" {
+		fmt.Println("yeah")
+	}
 
-		func() {
-			defer func() {
-				fmt.Println("defer here")
-			}()
+	test, _ := json.Marshal(tmp[(len(tmp)-len("&req_id=__REQUEST_TD__")):])
 
-			if user == "" {
-				panic("should set user env.")
-			}
+	var test2 string
 
-			// 此处不会执行
-			fmt.Println("after panic")
-		}()
-	}()
+	json.Unmarshal(test, &test2)
 
-	time.Sleep(100)
-	fmt.Println("end of main function")
+	fmt.Println(string(test))
+	fmt.Println(string(test2))
 }
