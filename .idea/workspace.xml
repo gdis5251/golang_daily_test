@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="872b37dd-87ef-4353-a7b3-8d2a8aa1dbd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/精选/01.判断字符是否唯一/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/精选/01.01.判断字符是否唯一/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/精选/02.判定是否互为字符重排/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/精选/01.02.判定是否互为字符重排/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/精选/03.URL 化/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/精选/01.03.URL 化/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,16 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build do_some_fxxking_test/精选/01.06.字符串压缩">
+    <configuration name="go build do_some_fxxking_test/精选/01.06.字符串压缩" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="do_some_fxxking_test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/精选/01.06.字符串压缩/main.go" />
+      <package value="do_some_fxxking_test/精选/01.06.字符串压缩" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build do_some_fxxking_test/leet_code/494.目标和" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="do_some_fxxking_test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -78,14 +90,6 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/leet_code/523.连续的子数组和/main.go" />
       <package value="do_some_fxxking_test/leet_code/523.连续的子数组和" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="do_some_fxxking_test" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/leet_code/剑指42.连续子数组的最大和/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -107,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build do_some_fxxking_test/精选/01.06.字符串压缩" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/494.目标和" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/523.连续的子数组和" />
-        <item itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +133,11 @@
           <url>file://$PROJECT_DIR$/leet_code/494.目标和/main.go</url>
           <line>37</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/精选/01.06.字符串压缩/main.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
