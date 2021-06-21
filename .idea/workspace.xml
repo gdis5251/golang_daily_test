@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="872b37dd-87ef-4353-a7b3-8d2a8aa1dbd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/精选/01.判断字符是否唯一/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/精选/01.01.判断字符是否唯一/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/精选/02.判定是否互为字符重排/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/精选/01.02.判定是否互为字符重排/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/精选/03.URL 化/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/精选/01.03.URL 化/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
