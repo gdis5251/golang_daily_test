@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="872b37dd-87ef-4353-a7b3-8d2a8aa1dbd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build do_some_fxxking_test/精选/01.06.字符串压缩">
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build do_some_fxxking_test/精选/01.06.字符串压缩" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="do_some_fxxking_test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,12 +82,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build do_some_fxxking_test/leet_code/523.连续的子数组和" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="do_some_fxxking_test" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/leet_code/523.连续的子数组和/main.go" />
-      <package value="do_some_fxxking_test/leet_code/523.连续的子数组和" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/精选/01.09.字符串轮转/main.go" />
+      <package value="do_some_fxxking_test" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build do_some_fxxking_test/精选/01.06.字符串压缩" />
+        <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build do_some_fxxking_test/精选/01.06.字符串压缩" />
         <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/494.目标和" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/523.连续的子数组和" />
       </list>
     </recent_temporary>
   </component>
@@ -136,12 +137,19 @@
           <line>10</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/精选/01.09.字符串轮转/main.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoApplicationRunConfiguration">
-        <watch expression="len(nums)" language="go" />
-        <watch expression="index" language="go" />
+        <watch expression="len(s1)" language="go" />
+        <watch expression="len(s2)" language="go" />
+        <watch expression="string(last)" language="go" />
+        <watch expression="s2[:len(s2) - 2]" language="go" />
       </configuration>
     </watches-manager>
   </component>
