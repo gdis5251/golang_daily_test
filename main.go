@@ -19,11 +19,16 @@ func main() {
 	//fmt.Println(string(test))
 	//fmt.Println(string(test2))
 
-	testMap := make(map[string]int)
-	testMap["a"] = 1
-	fn(testMap)
+	//testMap := make(map[string]int)
+	//testMap["a"] = 1
+	//fn(testMap)
+	//
+	//fmt.Println(testMap)
 
-	fmt.Println(testMap)
+	fmt.Println((true && (true|| false)))
+	fmt.Println(!(true && (true|| false)))
+	fmt.Println(true || (true && false))
+	fmt.Println(true || (true && false))
 }
 
 func fn(testMap map[string]int) {
