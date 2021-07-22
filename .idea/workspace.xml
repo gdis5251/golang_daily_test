@@ -62,7 +62,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Go Build.go build do_some_fxxking_test/精选/04.05.合法二插搜索树">
     <configuration name="go build do_some_fxxking_test/精选/01.06.字符串压缩" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="do_some_fxxking_test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -81,12 +81,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build do_some_fxxking_test/leet_code/494.目标和" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build do_some_fxxking_test/精选/04.05.合法二插搜索树" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="do_some_fxxking_test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/leet_code/494.目标和/main.go" />
-      <package value="do_some_fxxking_test/leet_code/494.目标和" />
+      <filePath value="$PROJECT_DIR$/精选/04.05.合法二插搜索树/main.go" />
+      <package value="do_some_fxxking_test/精选/04.05.合法二插搜索树" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build do_some_fxxking_test/精选/04.05.合法二插搜索树" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build do_some_fxxking_test/精选/02.01.移除重复节点" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build do_some_fxxking_test/精选/01.06.字符串压缩" />
-        <item itemvalue="Go Build.go build do_some_fxxking_test/leet_code/494.目标和" />
       </list>
     </recent_temporary>
   </component>
@@ -156,10 +156,8 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoApplicationRunConfiguration">
-        <watch expression="len(s1)" language="go" />
-        <watch expression="len(s2)" language="go" />
-        <watch expression="string(last)" language="go" />
-        <watch expression="s2[:len(s2) - 2]" language="go" />
+        <watch expression="maxNum" language="go" />
+        <watch expression="minNum" language="go" />
       </configuration>
     </watches-manager>
   </component>
